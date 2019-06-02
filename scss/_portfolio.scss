@@ -1,14 +1,20 @@
 // Styling for the portfolio section
 #portfolio {
+  background: red;
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    
     .portfolio-link {
       position: relative;
       display: block;
       max-width: 400px;
+      height: 10em;
       margin: 0 auto;
       cursor: pointer;
+      height: 15em;
+      overflow: hidden;
+      
       .portfolio-hover {
         position: absolute;
         width: 100%;
@@ -46,6 +52,7 @@
       padding: 25px;
       text-align: center;
       background-color: $white;
+      
       h4 {
         margin: 0;
         text-transform: none;
